@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 | It prevents user input from being interpreted as HTML or JavaScript.
 |--------------------------------------------------------------------------
 */
-<a href="malcious.site">Aniket</a>
+// <a href="malcious.site">Aniket</a>
 function escape(string $value): string
 {
     return htmlspecialchars($value, ENT_QUOTES, "UTF-8");
@@ -73,10 +73,10 @@ function escape(string $value): string
 
 <h1>Student Registration Form</h1>
 
-<script>
+<!-- <script>
     alert("Hello world");
     fetch().then(res=>res.data).then()
-</script>
+</script> -->
 <?php
    
 ?>
